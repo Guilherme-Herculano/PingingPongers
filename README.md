@@ -1,8 +1,8 @@
-## PingingPongers
+# PingingPongers
 
 This repository demonstrates concurrent programming in Go using channels. It features two functions, "ping" and "pong", that send messages to a channel, and a "print" function that receives and prints the messages to the screen. This creates a simple simulation of a production line where messages are alternately produced and displayed.
 
-# Getting Started
+## Getting Started
 
 To get started, clone the repository and run the following commands:
 
@@ -10,7 +10,7 @@ go mod download
 go run main.go
 This will start the program and you should see "Ping" and "Pong" messages alternately printed to the screen.
 
-# How it works
+## How it works
 
 The program consists of three main functions:
 
@@ -23,7 +23,7 @@ The print() function uses the <- operator to receive messages from the channel c
 
 The ping() and pong() functions use the -> operator to send messages to the channel c. The -> operator sends the message to the channel and then returns immediately.
 
-# Concepts demonstrated
+## Concepts demonstrated
 
 This project demonstrates the following concepts:
 
