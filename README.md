@@ -9,6 +9,7 @@ To get started, clone the repository and run the following commands:
 ```go mod download```
 <br>
 ```go run main.go```
+<br>
 This will start the program and you should see "Ping" and "Pong" messages alternately printed to the screen.
 
 ## How it works
